@@ -1,0 +1,12 @@
+import numpy as np
+arr = np.array([5, 10, 15, 20, 25])
+print("Array:", arr)
+print("First element:", arr[0])
+print("Last element:", arr[-1])
+print("Slicing (index 1 to 3):", arr[1:4])
+print("Shape:", arr.shape)
+print("Size:", arr.size)
+print("Data type:", arr.dtype)
+print("Minimum:", np.min(arr))
+print("Maximum:", np.max(arr))
+print("Square of elements:", np.square(arr))
